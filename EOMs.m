@@ -47,6 +47,7 @@ m_slider_dsgn = 0.5;
 R = 0.5;
 r = 0.2;
 
+%assuming in figure on pg8 that B3A1=B1A2=B2A3=sqrt(3)*r
 initial_Px_dsgn = [-R*sqrt(3)/2+sqrt(3)*r; R*sqrt(3)/2-sqrt(3)/2*r; -r*sqrt(3)/2];
 initial_Py_dsgn = [0; -R/2+3*r/2; R-3*r/2];
 
